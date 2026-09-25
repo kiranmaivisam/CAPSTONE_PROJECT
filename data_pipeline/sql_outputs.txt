@@ -1,0 +1,137 @@
+
+============================================================
+query1_select_where
+============================================================
+                                                             title  rating
+                             Sapiens: A Brief History of Humankind       5
+                                                       Set Me Free       5
+           Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)       5
+                                         Rip it Up and Start Again       5
+                                        Chase Me (Paris Nights #2)       5
+                                                        Black Dust       5
+           Worlds Elsewhere: Journeys Around Shakespeareâs Globe       5
+        The Four Agreements: A Practical Guide to Personal Freedom       5
+                                                 The Elephant Tree       5
+                                                    Sophie's World       5
+                                       Private Paris (Private #10)       5
+#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.       5
+                                      We Love You, Charlie Freeman       5
+                                                            Thirst       5
+
+============================================================
+query2_order_limit
+============================================================
+                                                                                                                          title  price_gbp
+                                                                                                 Slow States of Collapse: Poems      57.31
+                                             Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991      57.25
+                                                                                                            The Past Never Ends      56.50
+The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!      56.41
+                                                                                                The Secret of Dreadwillow Carse      56.13
+
+============================================================
+query3_distinct
+============================================================
+ category_id
+           1
+           2
+           3
+           4
+           5
+           6
+           7
+           8
+           9
+          10
+          11
+          12
+          13
+          14
+          15
+          16
+          17
+          18
+          19
+          20
+          21
+          22
+          23
+          24
+          25
+
+============================================================
+query4_between
+============================================================
+                                                                                                    title  price_gbp
+                                                                                            Sharp Objects      47.82
+                                                                                  It's Only the Himalayas      45.17
+                                                  Worlds Elsewhere: Journeys Around Shakespeareâs Globe      40.30
+                                                                                           Wall and Piece      44.18
+                                                                              Private Paris (Private #10)      47.61
+                                                                          Without Borders (Wanderlove #1)      45.07
+Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness      44.18
+                                                The Natural History of Us (The Fine Art of Pretending #2)      45.22
+
+============================================================
+query5_join
+============================================================
+                                                                                                                                                                          title  price_gbp      category_name
+                                                                                                                                                           A Light in the Attic      51.77             Poetry
+                                                                                                                                                             Tipping the Velvet      53.74 Historical Fiction
+                                                                                                                                                                     Soumission      50.10            Fiction
+                                                                                                                                                                  Sharp Objects      47.82            Mystery
+                                                                                                                                          Sapiens: A Brief History of Humankind      54.23            History
+                                                                                                                                                                The Requiem Red      22.65        Young Adult
+                                                                                                                             The Dirty Little Secrets of Getting Your Dream Job      33.34           Business
+                                                                                        The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull      17.93            Default
+                                                                                 The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics      22.60            Default
+                                                                                                                                                                The Black Maria      52.15             Poetry
+                                                                                                                                 Starving Hearts (Triangular Trade Trilogy, #1)      13.99            Default
+                                                                                                                                                          Shakespeare's Sonnets      20.66             Poetry
+                                                                                                                                                                    Set Me Free      17.46        Young Adult
+                                                                                                                        Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)      52.29     Sequential Art
+                                                                                                                                                      Rip it Up and Start Again      35.02              Music
+                                                                                             Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991      57.25              Music
+                                                                                                                                                                           Olio      23.88             Poetry
+                                                                                                                          Mesaerion: The Best Science Fiction Stories 1800-1849      37.59    Science Fiction
+                                                                                                                                                   Libertarianism for Beginners      51.33           Politics
+                                                                                                                                                        It's Only the Himalayas      45.17             Travel
+                                                                                                                                                                    In Her Wake      12.84           Thriller
+                                                                                                                                                                How Music Works      37.32              Music
+Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More      30.52     Food and Drink
+                                                                                                                                                     Chase Me (Paris Nights #2)      25.27            Romance
+                                                                                                                                                                     Black Dust      34.53            Romance
+                                                                                                                                                  Birdsong: A Story in Pictures      54.64          Childrens
+                                                                    America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana      22.50            Default
+                                                                                                                                                 Aladdin and His Wonderful Lamp      53.13            Default
+                                                                                                                        Worlds Elsewhere: Journeys Around Shakespeareâs Globe      40.30         Nonfiction
+                                                                                                                                                                 Wall and Piece      44.18                Art
+                                                                                                                     The Four Agreements: A Practical Guide to Personal Freedom      17.66       Spirituality
+                                                                                                      The Five Love Languages: How to Express Heartfelt Commitment to Your Mate      31.05         Nonfiction
+                                                                                                                                                              The Elephant Tree      23.82           Thriller
+                                                                                                                                                         The Bear and the Piano      36.89          Childrens
+                                                                                                                                                                 Sophie's World      15.94         Philosophy
+                                                                                                                                                                    Penny Maybe      33.29            Default
+                                                                                                                                 Maude (1883-1993):She Grew Up with the country      18.02            Default
+                                                                                                                                                           In a Dark, Dark Wood      19.63            Mystery
+                                                                                                                                                            Behind Closed Doors      52.22           Thriller
+                                                                                                                                                 You can't bury them all: Poems      33.63             Poetry
+                                                                                                                                                 Slow States of Collapse: Poems      57.31             Poetry
+                                                                                                                                                          Reasons to Stay Alive      26.41         Nonfiction
+                                                                                                                                                    Private Paris (Private #10)      47.61            Fiction
+                                                                                                             #HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.      23.11         Nonfiction
+                                                                                                                                                Without Borders (Wanderlove #1)      45.07          New Adult
+                                                                                                                                                               When We Collided      31.77       Contemporary
+                                                                                                                                                   We Love You, Charlie Freeman      50.27            Fiction
+                                                                                                                                        Untitled Collection: Sabbath Poems 2014      14.27             Poetry
+                                                                      Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness      44.18         Nonfiction
+                                                                                                                                                                 Unicorn Tracks      18.78            Fantasy
+                                                                         Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink      25.52            History
+                                                                                                                        Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)      16.28     Sequential Art
+                                                                                                    Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity      31.12         Nonfiction
+                                                                                                                                                                This One Summer      19.49     Sequential Art
+                                                                                                                                                                         Thirst      17.27            Fiction
+                                                                                                                                    The Torch Is Passed: A Harding Family Story      19.09      Add a comment
+                                                                                                                                                The Secret of Dreadwillow Carse      56.13          Childrens
+                                                The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!      56.41     Food and Drink
+                                                                                                                                                            The Past Never Ends      56.50            Mystery
+                                                                                                                      The Natural History of Us (The Fine Art of Pretending #2)      45.22        Young Adult
