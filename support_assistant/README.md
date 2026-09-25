@@ -53,3 +53,8 @@ Generate Answer
 The support assistant was tested locally using FastAPI with `MOCK_LLM=1`.
 Both policy retrieval and general-question routing were verified through the `/ask` endpoint.
 Example request and response JSON transcripts are available in `transcripts.md`.
+
+### Docker Status
+
+The Dockerfile is included and configured to build and run the FastAPI application.
+Local Docker image building was attempted, but the build could not complete because of insufficient local storage.
