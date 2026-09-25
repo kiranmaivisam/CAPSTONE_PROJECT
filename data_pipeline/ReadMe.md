@@ -166,3 +166,11 @@ The SQL JOIN between `books` and `categories` is also reproduced using `pd.merge
 
 \- `zepto.db` — SQLite database
 
+
+
+\## Module Status
+
+
+
+Module 1 data pipeline is complete and reproducible.
+
