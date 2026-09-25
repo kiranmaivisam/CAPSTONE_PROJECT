@@ -47,3 +47,9 @@ Generate Answer
        Pydantic Response
              ↓
            FastAPI
+
+## Testing Status
+
+The support assistant was tested locally using FastAPI with `MOCK_LLM=1`.
+Both policy retrieval and general-question routing were verified through the `/ask` endpoint.
+Example request and response JSON transcripts are available in `transcripts.md`.
